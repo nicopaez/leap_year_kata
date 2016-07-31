@@ -2,16 +2,16 @@
 
 namespace LeapYearKata
 {
-    internal class Year
+    public class Year
     {
-        private int v;
+        private int value;
 
-        public Year(int v)
+        public Year(int value)
         {
-            this.v = v;
+            this.value = value;
         }
 
-        internal bool? IsLeap()
+        public bool IsLeap()
         {
             return false;
         }
