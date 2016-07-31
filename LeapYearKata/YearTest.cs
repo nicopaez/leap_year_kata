@@ -22,5 +22,11 @@
         {
             Assert.IsFalse(new Year(1900).IsLeap());
         }
+
+        [Test]
+        public void IsLeapWhenIsDivisibleBy4By100By400()
+        {
+            Assert.IsTrue(new Year(2000).IsLeap());
+        }
     }
 }
