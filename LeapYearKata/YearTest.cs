@@ -10,5 +10,12 @@
         {
             Assert.IsFalse(new Year(2001).IsLeap());
         }
+
+        [Test]
+        public void IsLeapWhenIsDivisibleBy4AndNotBy100()
+        {
+            Assert.IsTrue(new Year(1996).IsLeap());
+
+        }
     }
 }

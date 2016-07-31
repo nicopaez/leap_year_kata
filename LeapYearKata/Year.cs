@@ -13,7 +13,7 @@ namespace LeapYearKata
 
         public bool IsLeap()
         {
-            return false;
+            return (this.value % 4 == 0);
         }
     }
 }
